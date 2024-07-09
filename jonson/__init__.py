@@ -8,7 +8,7 @@ from json import dumps
 Log levels in order of severity
 """
 levels = [
-    'verbose',
+    'trace',
     'debug',
     'info',
     'warn',
@@ -18,7 +18,7 @@ levels = [
 ]
 
 synonyms = [
-    ['trace', 'verbose'],
+    ['verbose', 'trace'],
     ['log', 'info'],
     ['warning', 'warn'],
     ['fatal', 'critical'],

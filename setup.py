@@ -5,7 +5,7 @@ with open("README.md", "r") as readme:
 
 setup(
     name="jonson",
-    version="1.1.0",
+    version="1.1.1",
     author="omrilotan",
     description="out-of-the-box, ready-to-use JSON logger",
     long_description=long_description,

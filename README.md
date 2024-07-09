@@ -29,12 +29,12 @@ logger.warn("Something must have gone terribly wrong") # sent
 
 A few synonyms are available for convenience
 
-1. `verbose` / `trace`
+1. `trace`, `verbose`
 1. `debug`
-1. `info` / `log`
+1. `info`, `log`
 1. `warn`
 1. `error`
-1. `critical` / `fatal` / `panic`
+1. `critical`, `fatal`, `panic`
 
 For example, a logger with log level "warn" will only print logs with level "warn", "error", or "critical".
 
